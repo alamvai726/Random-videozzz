@@ -44,9 +44,12 @@ This repository was created and developed by [MR-MAHABUB-004](https://github.com
 - Initial Commit: The repository was initiated and pushed by MR-MAHABUB-004.
 - Commit History: Check the full contribution history [here](https://github.com/MR-MAHABUB-004/VIDEO-API0/commits/main).
 
+## 💡 Inspiration
+This project was inspired by [MR-IMRAN-404](https://github.com/MR-IMRAN-404). Their work and ideas served as a motivation to bring this repository to life. A big thanks to brother Imran Ahemd for her influence and encouragement!
+
 ## 🤝 Contributing
 Contributions are welcome! Please submit an issue or a pull request with your suggestions or improvements.
 
 ---
 
-Feel free to let me know if you'd like additional details or further customization!
+Let me know if you'd like additional details or further customization!
