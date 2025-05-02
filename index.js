@@ -9,25 +9,39 @@ app.get("/video", (req, res) => {
 
   fs.readFile(videoFilePath, "utf8", (err, videoData) => {
     if (err) {
-      return res.status(500).json({ error: "Error reading video.json" });
+      return res.status(500).json({
+        status: "failed",
+        error: "Error reading video.json"
+      });
     }
 
     try {
       const videos = JSON.parse(videoData);
       if (!Array.isArray(videos) || videos.length === 0) {
-        return res.status(500).json({ error: "No videos found in video.json" });
+        return res.status(500).json({
+          status: "failed",
+          error: "No videos found in video.json"
+        });
       }
 
       const randomVideo = videos[Math.floor(Math.random() * videos.length)];
 
       const response = {
-        video: randomVideo
+        status: "success",
+        url: randomVideo,
+        author: {
+          Name: "MR᭄﹅ MAHABUB﹅ メꪜ",
+          Facebook: "https://www.facebook.com/www.xnxx.com140"
+        }
       };
 
       res.setHeader("Content-Type", "application/json");
       res.send(JSON.stringify(response, null, 2));
     } catch (parseError) {
-      res.status(500).json({ error: "Error parsing video.json" });
+      res.status(500).json({
+        status: "failed",
+        error: "Error parsing video.json"
+      });
     }
   });
 });
