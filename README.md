@@ -38,9 +38,15 @@ After setting up, you can access the API locally at:
 http://localhost:3000
 ```
 
+## 🛠 Proof of Contribution
+This repository was created and developed by [MR-MAHABUB-004](https://github.com/MR-MAHABUB-004).
+- GitHub Profile: [MR-MAHABUB-004](https://github.com/MR-MAHABUB-004)
+- Initial Commit: The repository was initiated and pushed by MR-MAHABUB-004.
+- Commit History: Check the full contribution history [here](https://github.com/MR-MAHABUB-004/VIDEO-API0/commits/main).
+
 ## 🤝 Contributing
 Contributions are welcome! Please submit an issue or a pull request with your suggestions or improvements.
 
 ---
 
-Feel free to let me know if you'd like to add or customize specific sections!
+Feel free to let me know if you'd like additional details or further customization!
