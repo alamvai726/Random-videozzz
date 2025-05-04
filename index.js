@@ -30,8 +30,8 @@ app.get("/video", (req, res) => {
         status: "success",
         url: randomVideo,
         author: {
-          Name: "MR᭄﹅ MAHABUB﹅ メꪜ",
-          Facebook: "https://www.facebook.com/www.xnxx.com140"
+          Name: "MOHAMMAD-JUBAYER",
+          Facebook: "https://www.facebook.com/profile.php?id=61573052122735"
         }
       };
 
